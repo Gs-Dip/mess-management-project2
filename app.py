@@ -17,6 +17,10 @@ def login():
 def usersignup():
     return render_template('user_signup.html')    
 
+@app.route('/adminsignup')
+def adminsignup():
+    return render_template('admin_signup.html')    
+
 
 
 
