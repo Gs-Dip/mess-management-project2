@@ -1,0 +1,39 @@
+{% extends 'index.html' %}
+
+{% block title %} Login {% endblock title %}
+
+
+{% block body %}
+
+<div class="container">
+
+<div class="row mt-5 pt-lg-4 pt-md-4 pt-sm-0">
+
+    <div class="col-md-4 col-sm-12"></div>
+
+    <div class="col-md-4 col-sm-12 px-lg-4 px-md-4 px-sm-0">
+
+        <form class="form-signin">
+             
+            <h1 class="h3 mb-3 font-weight-normal text-center">Please Log in</h1>
+            <label for="inputEmail" class="sr-only">Email address</label>
+            <input type="text" id="inputEmail" class="form-control" placeholder="name " required autofocus>
+            <label for="inputPassword" class="sr-only">Password</label>
+            <input type="password" id="inputPassword" class="form-control" placeholder="id" required>
+            <div class="checkbox mt-2 text-center">
+                <label>
+                    <input type="checkbox" value="remember-me"> Remember me
+                </label>
+            </div>
+            <button class="btn btn-lg btn-primary btn-block mt-3" type="submit">login</button>
+            <p class="mt-5 mb-3 text-muted text-center">&copy; 2022-2024</p>
+        </form>
+
+    </div>
+
+    <div class="col-md-4 col-sm-12"></div>
+
+</div>
+
+</div>
+{% endblock body %}
